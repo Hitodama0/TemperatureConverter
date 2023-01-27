@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State  var inputNumber: Double = 0
-    @State  var inputUnit: String = "Celsius"
-    @State  var outputUnit: String = "Celsius"
+    @State private var inputNumber: Double = 0
+    @State private var inputUnit: String = "Celsius"
+    @State private var outputUnit: String = "Celsius"
     @FocusState private var isFocused: Bool
     
     let units = ["Celsius", "Fahrenheit", "Kelvin"]
